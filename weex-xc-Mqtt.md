@@ -12,10 +12,16 @@
 #####  subscribe(String topic,fuc callback)
 + 订阅主题topic 
 
+#####  subscribeTopics(Array topics,func callback)
++ 订阅主题topics 
+
 #####  unSubscribe(String topic,func callback)
 + 解除订阅topic
 
-##### publish(Object data,String topic)
+#####  unSubscribe(Array topics,func callback)
++ 解除订阅topics
+
+##### publish(String topic,Object data)
 + 发送消息
 
 

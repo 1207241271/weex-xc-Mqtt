@@ -9,6 +9,13 @@
 #####  setMqttReceiver(fuc callback)
 + 设置MQTT消息接收
 
+| 属性       		| 类型	     	| 示例		  | 描述              |
+| ------------- 	|:---------:	| -----:	  | ----------:      |
+|topic		|String		|dev2app/865067022403441/433	  | 发出消息的topic|
+|data		|Object		| {"code":0,"data":{}}  | 解析出的返回数据      |
+
+
+
 #####  subscribe(String topic,fuc callback)
 + 订阅主题topic 
 

@@ -3,8 +3,16 @@
 #### 一款Mqtt weex插件
 
 
+
+
 #####  connect(String host,int port,func callback)
 + 连接至MQTT
++ callback参数
+
+| 属性       		| 类型	     	| 示例		  | 描述              |
+| ------------- 	|:---------:	| -----:	  | ----------:      |
+|suc		|bool		|true	  | 是否成功|
+
 
 #####  setMqttReceiver(fuc callback)
 + 设置MQTT消息接收
@@ -31,6 +39,8 @@
 ##### publish(String topic,Object data)
 + 发送消息
 
+##### disconnect(func callback)
++ 关闭连接
 
 #### 使用Jpush模块
 

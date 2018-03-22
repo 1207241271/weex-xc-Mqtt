@@ -25,7 +25,7 @@
 #####  unSubscribe(String topic,func callback)
 + 解除订阅topic
 
-#####  unSubscribe(Array topics,func callback)
+#####  unSubscribeTopics(Array topics,func callback)
 + 解除订阅topics
 
 ##### publish(String topic,Object data)
